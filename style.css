@@ -1,0 +1,114 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0px;
+    font-size: 22px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+}
+/* style for cap of site */
+.header{
+    background: rgb(221, 103, 82);
+    padding: 10px 0;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+}
+.header-image{
+    width: 120px;
+}
+.header-list{
+    display: flex;
+    gap: 50px;
+}
+.header-link{
+    font-size: 24px;
+    color: white;
+    font-weight: 700;
+}
+.header-link:hover{
+    color: blanchedalmond;
+}
+/* main section */
+.hero{
+   padding: 50px 0px;
+}
+.hero-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.hero-image{
+    width: 550px;
+}
+.hero-title{
+    font-size: 48px;
+    color: rgb(113, 27, 12);  
+}
+/* second section */
+.dough{
+    padding: 50px 0px;
+    background-color: rgb(255, 167, 123);
+}
+.dough-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.dough-image{
+    width: 550px;
+}
+.dough-title{
+    color: rgb(113, 27, 12);
+}
+.dough-list{
+    list-style: disc;
+    margin-left: 50px;
+}
+/* third section */
+.filling{
+    padding: 50px 0px; 
+    background-color:blanchedalmond;
+}
+.filling-container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    flex-direction: row-reverse;   
+}
+.filling-image{
+width: 550px;
+}
+.filling-title{
+    color: rgb(113, 27, 12);    
+}
+.filling-list{
+    list-style: disc;
+    margin-left: 50px;
+}
+/* footer */
+.footer{
+    background-color:rgb(221, 103, 82);
+    padding: 10px 0px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+}
+.footer-image{
+    width: 30px;
+   margin-left: 25px;
+}
+.footer-text {
+    color: white;
+}

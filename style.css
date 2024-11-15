@@ -22,7 +22,9 @@ a{
 }
 .header-container{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+
 }
 .header-image{
     width: 120px;
@@ -106,7 +108,7 @@ width: 550px;
     justify-content: center;
 }
 .footer-image{
-    width: 40px;
+    width: 55px;
    margin-left: 25px;
 }
 .footer-text {
